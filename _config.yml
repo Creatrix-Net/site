@@ -132,7 +132,7 @@ bing_site_verification: FB21C9B37FE38563A2917109CDF863EF # out your bing-site-ve
 blog_name: CNET Blogs # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: true # produce an index for related posts
 
 # Pagination
 pagination:
