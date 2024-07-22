@@ -9,8 +9,8 @@ children:
     newtab: true
     permalink: https://dhruvashaw.in/publications/
   - title: divider
-  - title: projects
-    permalink: /projects/
+  - title: Minato Namikaze Bot
+    permalink: https://minatonamikaze.dhruvashaw.in/
   - title: divider
   - title: blog
     permalink: /blog/
