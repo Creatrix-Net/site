@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Dhruvacube
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Creatrix-Net/yondaime-hokage
+  - Creatrix-Net/fluxpoint.py
+  - Creatrix-Net/Micromouse
+  - Creatrix-Net/bot-invites-logger
