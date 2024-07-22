@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Building Together, Sharing Freely , सर्वेषां कृते सुलभं नवीनता |
 
