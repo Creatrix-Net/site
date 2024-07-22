@@ -5,4 +5,4 @@ Myself a natural discord.py bot developer and a full stack developer using pytho
 
 Writeups and researches related to my projects are open-sourced and available for all towards a positive contribution. Head over to my github for a detailed insight.
 
-`<a href="https://dhruvashaw.in" target="_blank"> Portfolio </a>`
+<a href="https://dhruvashaw.in" target="_blank"> Portfolio </a>
