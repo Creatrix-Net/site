@@ -6,7 +6,8 @@ nav_order: 8
 dropdown: true
 children:
   - title: publications
-    permalink: /publications/
+    newtab: true
+    permalink: https://dhruvashaw.in/publications/
   - title: divider
   - title: projects
     permalink: /projects/

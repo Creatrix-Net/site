@@ -13,4 +13,8 @@ profiles:
     image: prof_pic.jpg
     content: about_dhruva.md
     image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>dhruvashaw@ieee.org</p>
+      <p>me@dhruvashaw.in</p>
+      <p>dhruvashaw.in</p>
 ---
