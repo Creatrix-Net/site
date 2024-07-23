@@ -1,81 +1,92 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Fluxpoint.py
+description: A modern, easy to use, feature-rich, and async ready API wrapper for Fluxpoint written in Python.
+img: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/umsj4lsfjs9zgloh9d6x.png
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## fluxpoint.py
+============
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[![Discord server invite](https://discord.com/api/guilds/920190307595874304/embed.png)](https://discord.gg/vfXHwS3nmQ) [![PyPI version info](https://img.shields.io/pypi/v/fluxpoint.py.svg)](https://pypi.python.org/pypi/fluxpoint.py) [![PyPI supported Python versions](https://img.shields.io/pypi/pyversions/fluxpoint.py.svg)](https://pypi.python.org/pypi/fluxpoint.py)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+A modern, easy to use, feature-rich, and async ready API wrapper for
+Fluxpoint written in Python.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Key Features
+------------
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+-   Modern Pythonic API using `async` and `await`.
+-   Proper rate limit handling.
+-   Optimised in both speed and memory.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Installing
+----------
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Python 3.8 or higher is required**
 
-{% raw %}
+To install the library, you can just run the following command:
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+``` {.sh}
+# Linux/macOS
+python3 -m pip install -U fluxpoint.py
+
+# Windows
+py -3 -m pip install -U fluxpoint.py
 ```
 
-{% endraw %}
+To speedup the api wrapper you should run the following command:
+
+``` {.sh}
+# Linux/macOS
+python3 -m pip install -U "fluxpoint.py[speed]"
+
+# Windows
+py -3 -m pip install -U fluxpoint.py[speed]
+```
+
+To install the development version, do the following:
+
+``` {.sh}
+$ git clone https://github.com/Dhruvacube/fluxpoint.py
+$ cd fluxpoint.py
+$ python3 -m pip install -U .[speed]
+```
+
+Quick Example
+-------------
+
+``` {.py}
+from fluxpoint import FluxpointClient
+import asyncio
+import sys
+
+# setting up the fluxpoint client handler
+a = FluxpointClient(api_token="get api token from https://fluxpoint.dev/api/access")
+
+# setting up the windows loop policy according to the operating system
+if sys.platform.startswith('win32') or sys.platform.startswith('cygwin'):
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
+# getting the image url of AZURLANE image
+print(asyncio.run(a.azurlane()))
+```
+
+You can find more examples in the [examples
+directory](https://github.com/Dhruvacube/fluxpoint.py/tree/master/examples).
+
+---
+
+Links
+-----
+
+-   [Documentation](https://fluxpointpy.readthedocs.io/en/latest/)
+-   [Official Support Discord Server](https://discord.gg/vfXHwS3nmQ)
+-   [Official Fluxpoint server](https://discord.gg/fluxpoint)
+-   [Get Fluxpoint api access](https://fluxpoint.dev/api/access)
+-   [Official Fluxpoint api docs](https://bluedocs.page/fluxpoint-api)
+
+{% embed https://github.com/Dhruvacube/fluxpoint.py %}
