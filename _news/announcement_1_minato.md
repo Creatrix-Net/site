@@ -5,6 +5,7 @@ inline: false
 related_posts: false
 title: The Hokage [Minato Namikaze] is Returning!
 ---
+
 # **The Hokage is Returning!**
 
 We are thrilled to announce the revival of Minato Namikaze, your one-stop solution for all your Discord needs. Inspired by the legendary Fourth Hokage, our bot is designed to be as swift and efficient as its namesake, handling a multitude of tasks to make your Discord experience seamless.
