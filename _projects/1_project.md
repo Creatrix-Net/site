@@ -1,81 +1,48 @@
 ---
+giscus_comments: true
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Minato Namikaze
+description: Konichiwa 👋, myself Minato Namikaze, Konohagakure Yondaime Hokage. I do every work of a Hokage in a swift and clean way ⚡
+img: https://i.imgur.com/FzgLCHM.jpeg
 importance: 1
 category: work
-related_publications: true
+---
+### Konichiwa 👋, myself Minato Namikaze, Konohagakure Yondaime Hokage. I do every work of a Hokage in a swift and clean way ⚡
+
+[![Owner](https://top.gg/api/widget/owner/{{bot_discord_id}}.svg)](https://top.gg/bot/{{bot_discord_id}}) [![Status](https://top.gg/api/widget/status/{{bot_discord_id}}.svg)](http://discord.com/users/{{bot_discord_id}})  [![Servers](https://top.gg/api/widget/servers/{{bot_discord_id}}.svg)](https://top.gg/bot/{{bot_discord_id}}) [![Upvotes](https://top.gg/api/widget/upvotes/{{bot_discord_id}}.svg)](https://top.gg/bot/{{bot_discord_id}}) [![Documentation Status](https://readthedocs.org/projects/minato-namikaze/badge/?version=latest)](https://minato-namikaze.readthedocs.io/en/latest/?badge=latest)
+
+![image](https://i.imgur.com/FzgLCHM.jpeg)
+
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### About Me
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Minato Namikaze** (**波風ミナト**, Namikaze Minato) was the **Fourth Hokage** (**四代目火影**, Yondaime Hokage, literally meaning: Fourth Fire Shadow) of Konohagakure. He was renowned all over the world as **Konoha's Yellow Flash** (**木ノ葉の黄色い閃光**, Konoha no Kiiroi Senkō, English TV: Yellow Flash of the Leaf). He died during the Nine-Tailed Demon Fox's Attack, sacrificing his life to seal a part of the Nine-Tails into his newborn son, Naruto Uzumaki.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Get Started
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+[Invite Now](https://discord.com/oauth2/authorize?client_id={{bot_discord_id}}&permissions=8&redirect_uri=https%3A%2F%2Fminatonamikaze-invites.herokuapp.com%2Finvite&scope=applications.commands%20bot&response_type=code&state=cube12345%3F%2FBot%20Website)
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Contact Us
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+To contact us for queries please join our support server.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<iframe src="https://discord.com/widget?id=920190307595874304&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### **Introducing Subscription Tiers**
 
-{% endraw %}
+To enhance your experience and support the continued development of Minato Namikaze, we are introducing subscription-based models for premium services. These tiers will offer exclusive features and benefits to elevate your Discord journey.
+
+- Tier 1: INR 300/month
+- Tier 2: INR 500/month
+- Tier 3: INR 1000/month
+
+The specific premium services included in each tier will be detailed in a subsequent announcement.
+
+### **Legal and Financial Information**
+
+Please note that the legal jurisdiction for this project is India. The subscription-based model will adhere to the guidelines set forth by the Reserve Bank of India (RBI). Further details regarding the payment process and subscription terms will be provided in a separate announcement.
+
+![Namikaze Family](https://minatonamikaze.dhruvashaw.in/en/latest/assets/banner.jpg)
