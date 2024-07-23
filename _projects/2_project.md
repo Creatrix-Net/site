@@ -2,7 +2,7 @@
 layout: page
 title: Fluxpoint.py
 description: A modern, easy to use, feature-rich, and async ready API wrapper for Fluxpoint written in Python.
-img: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/umsj4lsfjs9zgloh9d6x.png
+img: /assets/img/fluxpoint.png
 importance: 2
 category: work
 giscus_comments: true
