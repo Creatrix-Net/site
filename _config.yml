@@ -164,13 +164,13 @@ giscus:
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: Dhruva Shaw Blog
-    posts:
-      - url: https://blogs.dhruvashaw.in/assessing-the-feasibility-of-creating-a-wall-e-like-robot-for-human-assistance
-        published_date: 2023-10-04
-      # - url: https://blogs.dhruvashaw.in/fluxpointpy
-      #   published_date: 2022-07-01
+# external_sources:
+#   - name: Dhruva Shaw Blog
+#     posts:
+#       - url: https://blogs.dhruvashaw.in/assessing-the-feasibility-of-creating-a-wall-e-like-robot-for-human-assistance
+#         published_date: 2023-10-04
+#       # - url: https://blogs.dhruvashaw.in/fluxpointpy
+#       #   published_date: 2022-07-01
 
 # -----------------------------------------------------------------------------
 # Newsletter
