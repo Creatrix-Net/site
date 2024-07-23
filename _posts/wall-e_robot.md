@@ -2,8 +2,9 @@
 layout: post
 title: Assessing the Feasibility of Creating a WALL-E-Like Robot For Human Assistance
 date: 2024-10-04 00:00:00
-description:  A WALL-E inspired robot assistant, examining technological feasibility, design considerations, and ethical implications for improved human life.
+description: A WALL-E inspired robot assistant, examining technological feasibility, design considerations, and ethical implications for improved human life.
 ---
+
 {% include figure.liquid loading="eager" path="![assets/img/8.jpg](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kkm6qu674bx36fntlqzm.jpeg)" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## Abstract:
@@ -22,10 +23,10 @@ The designing of brain is one of the most important aspect of the robot to funct
 
 At a glance it may look like that brain for the robot would be plain simple AI model like of ChatGPT or Bard, but in practical it would be different as laid down below:
 
-Brain of the robot can be divided into *6 different basic required parts:*
+Brain of the robot can be divided into _6 different basic required parts:_
 
 - **Manual mode switcher**:
-  This is the most important thing required in robot, there should be a *manual mode switcher* as not everything can be left to AI or automation in general. In this one program of the robot to work via voice commands or program it via some external signals which can be activated via the push buttons.
+  This is the most important thing required in robot, there should be a _manual mode switcher_ as not everything can be left to AI or automation in general. In this one program of the robot to work via voice commands or program it via some external signals which can be activated via the push buttons.
 - **AI Model** :
   This is the main part of the brain where all the automation would take place. One can develop its own AI Model or can use API’s of Google or OpenAI. The model should be more of like the conversational bot mixed with AI assistant. Heavy applications of NLP and ANN is required. Simply designing and training the AI model or using api’s won’t be enough.
 
@@ -72,7 +73,7 @@ It would aid people to do their daily chores and also act as a reminder assistan
 | [1] | W. contributors, "WALL-E," 26 August 2023. [Online]. Available: https://en.wikipedia.org/w/index.php?title=WALL-E&oldid=1172280439.                            |
 | :-- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [2] | N. McLaughlin, "Maze Solving Algorithms for Micro Mouse," SlideShow, [Online]. Available: https://slideplayer.com/slide/8569125/.                              |
-| [3] | james-ralph8555,*DrexelMicromouse2020.*                                                                                                                      |
+| [3] | james-ralph8555,_DrexelMicromouse2020._                                                                                                                        |
 | [4] | M. A. Dharmasiri, "Micromouse from scratch                                                                                                                     |
 | [5] | W. contributors, "Micromouse," Wikipedia, The Free Encyclopedia., [Online]. Available: https://en.wikipedia.org/w/index.php?title=Micromouse&oldid=1158883816. |
 | [6] | GreatScott!, "From Idea to Schematic to PCB - How to do it easily! - YouTube," [Online]. Available: https://www.youtube.com/watch?v=35YuILUlfGs.               |
