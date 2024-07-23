@@ -11,7 +11,4 @@ children:
   - title: divider
   - title: Minato Namikaze Bot
     permalink: https://minatonamikaze.dhruvashaw.in/
-  - title: divider
-  - title: blog
-    permalink: /blog/
 ---
