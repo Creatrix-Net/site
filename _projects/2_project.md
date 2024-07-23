@@ -7,6 +7,7 @@ importance: 2
 category: work
 giscus_comments: true
 ---
+
 ## fluxpoint.py
 
 ============
@@ -16,15 +17,13 @@ giscus_comments: true
 A modern, easy to use, feature-rich, and async ready API wrapper for
 Fluxpoint written in Python.
 
-Key Features
-------------
+## Key Features
 
 - Modern Pythonic API using `async` and `await`.
 - Proper rate limit handling.
 - Optimised in both speed and memory.
 
-Installing
-----------
+## Installing
 
 **Python 3.8 or higher is required**
 
@@ -56,8 +55,7 @@ $ cd fluxpoint.py
 $ python3 -m pip install -U .[speed]
 ```
 
-Quick Example
--------------
+## Quick Example
 
 ```{.py}
 from fluxpoint import FluxpointClient
@@ -80,8 +78,7 @@ directory](https://github.com/Dhruvacube/fluxpoint.py/tree/master/examples).
 
 ---
 
-Links
------
+## Links
 
 - [Documentation](https://fluxpointpy.readthedocs.io/en/latest/)
 - [Official Support Discord Server](https://discord.gg/vfXHwS3nmQ)
