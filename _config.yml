@@ -169,6 +169,8 @@ external_sources:
     posts:
       - url: https://blogs.dhruvashaw.in/assessing-the-feasibility-of-creating-a-wall-e-like-robot-for-human-assistance
         published_date: 2023-10-04
+      - url: https://blogs.dhruvashaw.in/fluxpointpy
+        published_date: 2022-07-01
 
 # -----------------------------------------------------------------------------
 # Newsletter
