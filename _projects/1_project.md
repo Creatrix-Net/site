@@ -3,11 +3,10 @@ giscus_comments: true
 layout: page
 title: Minato Namikaze
 description: Konichiwa 👋, myself Minato Namikaze, Konohagakure Yondaime Hokage. I do every work of a Hokage in a swift and clean way ⚡
-img: https://i.imgur.com/FzgLCHM.jpeg
+img: /assets/img/minatologo.jpeg
 importance: 1
 category: work
 ---
-
 ### Konichiwa 👋, myself Minato Namikaze, Konohagakure Yondaime Hokage. I do every work of a Hokage in a swift and clean way ⚡
 
 [![Owner](https://top.gg/api/widget/owner/935242576343224352.svg)](https://top.gg/bot/935242576343224352) [![Status](https://top.gg/api/widget/status/935242576343224352.svg)](http://discord.com/users/935242576343224352) [![Servers](https://top.gg/api/widget/servers/935242576343224352.svg)](https://top.gg/bot/935242576343224352) [![Upvotes](https://top.gg/api/widget/upvotes/935242576343224352.svg)](https://top.gg/bot/935242576343224352) [![Documentation Status](https://readthedocs.org/projects/minato-namikaze/badge/?version=latest)](https://minato-namikaze.readthedocs.io/en/latest/?badge=latest)
