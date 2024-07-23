@@ -7,8 +7,8 @@ importance: 2
 category: work
 giscus_comments: true
 ---
-
 ## fluxpoint.py
+
 ============
 
 [![Discord server invite](https://discord.com/api/guilds/920190307595874304/embed.png)](https://discord.gg/vfXHwS3nmQ) [![PyPI version info](https://img.shields.io/pypi/v/fluxpoint.py.svg)](https://pypi.python.org/pypi/fluxpoint.py) [![PyPI supported Python versions](https://img.shields.io/pypi/pyversions/fluxpoint.py.svg)](https://pypi.python.org/pypi/fluxpoint.py)
@@ -19,9 +19,9 @@ Fluxpoint written in Python.
 Key Features
 ------------
 
--   Modern Pythonic API using `async` and `await`.
--   Proper rate limit handling.
--   Optimised in both speed and memory.
+- Modern Pythonic API using `async` and `await`.
+- Proper rate limit handling.
+- Optimised in both speed and memory.
 
 Installing
 ----------
@@ -30,7 +30,7 @@ Installing
 
 To install the library, you can just run the following command:
 
-``` {.sh}
+```{.sh}
 # Linux/macOS
 python3 -m pip install -U fluxpoint.py
 
@@ -40,7 +40,7 @@ py -3 -m pip install -U fluxpoint.py
 
 To speedup the api wrapper you should run the following command:
 
-``` {.sh}
+```{.sh}
 # Linux/macOS
 python3 -m pip install -U "fluxpoint.py[speed]"
 
@@ -50,7 +50,7 @@ py -3 -m pip install -U fluxpoint.py[speed]
 
 To install the development version, do the following:
 
-``` {.sh}
+```{.sh}
 $ git clone https://github.com/Dhruvacube/fluxpoint.py
 $ cd fluxpoint.py
 $ python3 -m pip install -U .[speed]
@@ -59,7 +59,7 @@ $ python3 -m pip install -U .[speed]
 Quick Example
 -------------
 
-``` {.py}
+```{.py}
 from fluxpoint import FluxpointClient
 import asyncio
 import sys
@@ -83,10 +83,8 @@ directory](https://github.com/Dhruvacube/fluxpoint.py/tree/master/examples).
 Links
 -----
 
--   [Documentation](https://fluxpointpy.readthedocs.io/en/latest/)
--   [Official Support Discord Server](https://discord.gg/vfXHwS3nmQ)
--   [Official Fluxpoint server](https://discord.gg/fluxpoint)
--   [Get Fluxpoint api access](https://fluxpoint.dev/api/access)
--   [Official Fluxpoint api docs](https://bluedocs.page/fluxpoint-api)
-
-{% embed https://github.com/Dhruvacube/fluxpoint.py %}
+- [Documentation](https://fluxpointpy.readthedocs.io/en/latest/)
+- [Official Support Discord Server](https://discord.gg/vfXHwS3nmQ)
+- [Official Fluxpoint server](https://discord.gg/fluxpoint)
+- [Get Fluxpoint api access](https://fluxpoint.dev/api/access)
+- [Official Fluxpoint api docs](https://bluedocs.page/fluxpoint-api)
