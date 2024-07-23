@@ -1,5 +1,5 @@
 ---
-yout: post
+layout: post
 date: 2024-07-23 21:15:00
 inline: false
 related_posts: false
