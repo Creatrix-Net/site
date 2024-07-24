@@ -33,7 +33,7 @@ NOTE: For every different services we have our own different privacy policy, can
 
 We do not share your personal information with third parties, except as necessary for providing bot services (such as using Discord's API) or as required by law.
 
-**5. Data **Security\*\*
+**5. Data Security**
 
 **We implement **reasonable security measures to protect your information from unauthorized access, disclosure, alteration, or destruction.** However, no method of **transmission over the internet** or electronic storage is completely secure, and we cannot guarantee absolute security.**
 
@@ -41,7 +41,7 @@ We do not share your personal information with third parties, except as necessar
 
 Minato Namikaze **is not intended for use by children under the age of 13. We do not knowingly collect personal information from children.**
 
-**7. Changes **to This Privacy Policy\*\*
+**7. Changes to This Privacy Policy**
 
 **We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting the** new policy on our website or within the bot.
 
