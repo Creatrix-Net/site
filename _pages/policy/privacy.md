@@ -8,8 +8,6 @@ nav_order: 9
 horizontal: false
 ---
 
-# Privacy Policy for Minato Namikaze Discord Bot
-
 **1. Introduction**
 
 This Privacy Policy outlines how Minato Namikaze, a Discord bot operated by Creative Net (hereinafter referred to as "we," "us," or "our"), collects, uses, and protects the information of users who interact with the bot.

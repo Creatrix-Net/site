@@ -8,8 +8,6 @@ nav_order: 11
 horizontal: false
 ---
 
-# Terms and Conditions for Minato Namikaze Discord Bot
-
 **1. Acceptance of Terms**
 
 By using the Minato Namikaze Discord bot, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use the bot.
