@@ -38,7 +38,7 @@ We are not responsible for any damages or losses caused by the use or inability 
 
 We may terminate your access to the bot at any time, with or without cause.
 
-**7. **Governing Law\*\*\*\*
+**7. **Governing Law\*\*
 
 **These Terms and Conditions shall be governed by and construed in accordance with the laws of India.**
 
