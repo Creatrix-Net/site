@@ -84,4 +84,4 @@ directory](https://github.com/Dhruvacube/fluxpoint.py/tree/master/examples).
 - [Official Support Discord Server](https://discord.gg/vfXHwS3nmQ)
 - [Official Fluxpoint server](https://discord.gg/fluxpoint)
 - [Get Fluxpoint api access](https://fluxpoint.dev/api/access)
-- [Official Fluxpoint api docs](https://bluedocs.page/fluxpoint-api)
+- [Official Fluxpoint api docs](https://docs.fluxpoint.dev/api)
