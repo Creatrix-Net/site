@@ -4,6 +4,7 @@ title: "VEDIC: Teaching a Drone to Win a Dogfight with Math, Not Missiles"
 date: 2026-07-30 10:00:00
 description: How a Velocity-Extended Dynamic Interceptor Control (VEDIC) guidance law lets a small multirotor out-think — not out-accelerate — an evasive aerial target.
 category: defence
+status: research
 importance: 7
 giscus_comments: true
 related_posts: false

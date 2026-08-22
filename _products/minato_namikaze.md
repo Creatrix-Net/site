@@ -6,6 +6,7 @@ description: Konichiwa 👋, myself Minato Namikaze, Konohagakure Yondaime Hokag
 img: /assets/img/products/minatologo.jpeg
 importance: 3
 category: fun
+status: open source
 ---
 
 ### Konichiwa 👋, myself Minato Namikaze, Konohagakure Yondaime Hokage. I do every work of a Hokage in a swift and clean way ⚡

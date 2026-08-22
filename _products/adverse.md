@@ -6,6 +6,7 @@ description: Adverse © is an advanced open-source intelligence (OSINT) and faci
 img: /assets/img/products/adverse.png
 original_base_url: "thecreativenet.in"
 category: defence
+status: copyright
 giscus_comments: true
 importance: 1
 _styles: >

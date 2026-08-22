@@ -181,6 +181,9 @@
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
 
+    <!-- Scroll Effects (parallax + reveal) -->
+    <script defer src="{{ '/assets/js/scroll-effects.js' | relative_url | bust_file_cache }}"></script>
+
     <script>
       window.$zoho = window.$zoho || {};
       $zoho.salesiq = $zoho.salesiq || { ready: function () {} };

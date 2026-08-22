@@ -2,71 +2,106 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+  <div class="parallax-hero epic-layout">
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+    <!-- Epicurrence Massive Background -->
+    <div class="parallax-bg" data-parallax="0.2">
+      <img src="{{ '/assets/img/hero_bg.jpg' | relative_url }}" alt="Background">
+    </div>
+
+    <!-- Cartoonish Line Art (Defense Theme) -->
+    <img src="{{ '/assets/img/drone_lineart.jpg' | relative_url }}" class="floating-illustration illustration-drone" data-parallax="0.3" alt="Drone illustration">
+    <img src="{{ '/assets/img/radar_lineart.jpg' | relative_url }}" class="floating-illustration illustration-radar" data-parallax="0.15" alt="Radar illustration">
+
+    <!-- Vertical Edge Tracking Text -->
+    <div class="vertical-text edge-left">*ILLUSTRATION BY CREATIVE NET</div>
+    <div class="vertical-text edge-right">*DESIGN BY AL-FOLIO</div>
+
+    <!-- Three Column Grid -->
+    <div class="hero-grid">
+
+      <!-- LEFT: Hook & Massive Title -->
+      <div class="hero-col hero-left" data-parallax="-0.1">
+        <h3 class="hero-pre-title">Welcome to the Revival</h3>
+        <h1 class="hero-title">
+          {% if site.title == 'blank' %}
+            {{ site.first_name }}<br>{{ site.last_name }}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {{ site.title }}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+        </h1>
       </div>
-    {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      <!-- CENTER: Huge Circular Badge (Logo) -->
+      <div class="hero-col hero-center" data-parallax="0.05">
+        <div class="badge-container">
+          {% if page.profile and page.profile.image %}
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% assign profile_image_class = 'center-badge' %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
+          {% endif %}
+        </div>
+      </div>
+
+      <!-- RIGHT: Details & Button -->
+      <div class="hero-col hero-right" data-parallax="-0.15">
+        <h2 class="hero-action-title">Creative Net<br>is here.</h2>
+        <p class="hero-details">{{ page.subtitle }}</p>
+        <a href="{{ '/projects/' | relative_url }}" class="hero-btn">EXPLORE PROJECTS</a>
+
+        <!-- Tech/Defense Tags -->
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
+          <span style="font-size: 0.65rem; font-weight: 700; text-transform: uppercase; border: 1px solid rgba(255,255,255,0.3); padding: 0.3rem 0.5rem; border-radius: 4px; opacity: 0.8; letter-spacing: 0.05em;">PATENT PENDING</span>
+          <span style="font-size: 0.65rem; font-weight: 700; text-transform: uppercase; border: 1px solid rgba(255,255,255,0.3); padding: 0.3rem 0.5rem; border-radius: 4px; opacity: 0.8; letter-spacing: 0.05em;">ACTIVE R&D</span>
+        </div>
+
+        <p class="hero-small-text">Only the best R&D.<br>Ready to innovate?</p>
+      </div>
+
+    </div>
+  </div><!-- /.parallax-hero -->
+
+  <article style="position: relative; z-index: 2; padding: 4rem 10% 2rem; max-width: 1200px; margin: 0 auto;">
+    <div class="clearfix scroll-reveal" style="font-size: 1.25rem; line-height: 1.6;">{{ content }}</div>
+  </article>
+
+  <!-- Section Divider -->
+  <div class="parallax-divider"></div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
+      <div class="scroll-reveal">
+        <h2>
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        </h2>
+        {% include news.liquid limit=true %}
+      </div>
     {% endif %}
 
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
+      <div class="scroll-reveal">
+        <h2>
+          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        </h2>
+        {% include latest_posts.liquid %}
+      </div>
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <div class="scroll-reveal">
+        <h2>
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        </h2>
+        {% include selected_papers.liquid %}
+      </div>
     {% endif %}
 
     <!-- Social -->
     {% if page.social %}
-      <div class="social">
+      <div class="social scroll-reveal">
         <div class="contact-icons">{% include social.liquid %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>

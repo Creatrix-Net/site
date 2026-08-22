@@ -2,6 +2,11 @@
  * Content
  ******************************************************************************/
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: $nav-height-with-buffer;
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
@@ -13,13 +18,13 @@ body {
   h4,
   h5,
   h6 {
-    scroll-margin-top: 66px;
+    scroll-margin-top: $nav-height-with-buffer;
   }
 }
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
-  padding-top: 56px;
+  padding-top: $nav-height;
 }
 
 body.sticky-bottom-footer {
@@ -29,6 +34,11 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: $max-content-width;
+}
+
+// Anchor targets (product categories) need scroll-margin too
+a[id] {
+  scroll-margin-top: $nav-height-with-buffer;
 }
 
 // Profile

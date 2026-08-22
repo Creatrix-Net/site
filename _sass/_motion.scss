@@ -1,0 +1,65 @@
+/*******************************************************************************
+ * Motion & Scroll Effects — Palantir-inspired
+ * All animation rules are isolated here.
+ * Everything is gated behind prefers-reduced-motion: no-preference.
+ ******************************************************************************/
+
+// ── Scroll Reveal ────────────────────────────────────────────────────────────
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1),
+              transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: transform, opacity;
+}
+
+.scroll-reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+// Stagger delays
+@for $i from 1 through 8 {
+  .scroll-reveal--delay-#{$i} {
+    transition-delay: #{$i * 80}ms;
+  }
+}
+
+// ── Hero Parallax ────────────────────────────────────────────────────────────
+
+.parallax-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+// ── Section Divider Parallax ─────────────────────────────────────────────────
+
+.parallax-divider {
+  position: relative;
+  height: 60px;
+  margin: 4rem 0;
+  border-top: 2px solid var(--global-divider-color);
+}
+
+// ── Reduced Motion ───────────────────────────────────────────────────────────
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    will-change: auto;
+  }
+
+  .parallax-hero .profile img {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .parallax-divider::before {
+    background-attachment: scroll;
+  }
+}

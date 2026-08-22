@@ -5,6 +5,7 @@ description: IWS (Information Warfare Simulator) is an advanced, indigenous cogn
 img: /assets/img/products/infowar.png
 importance: 9
 category: defence
+status: active
 giscus_comments: true
 ---
 

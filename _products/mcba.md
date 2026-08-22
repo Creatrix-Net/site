@@ -9,6 +9,7 @@ img: /assets/img/products/mcba/mcba_logo.jpeg
 date: 2024-12-12
 importance: 2
 category: work
+status: patent pending
 pretty_table: true
 mermaid:
   enabled: true

@@ -5,6 +5,7 @@ description: A modern, easy to use, feature-rich, and async ready API wrapper fo
 img: /assets/img/products/fluxpoint.png
 importance: 4
 category: fun
+status: open source
 giscus_comments: true
 ---
 
