@@ -12,7 +12,7 @@ pretty_table: true
 ---
 
 <center>
-{% include figure.liquid loading="eager" path="assets/img/phishnet/phishnet.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/products/phishnet/phishnet.png" class="img-fluid rounded z-depth-1" %}
 </center>
 
 ### Project Overview
@@ -83,9 +83,9 @@ The system pipeline is designed for efficiency and scalability:
 - **Reporting**: A separate Celery task generates zipped reports with domain details and screenshots, which are then emailed to the user.
 
 <center>
-{% include figure.liquid loading="eager" path="/assets/img/phishnet/request_process_thread.png" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid loading="eager" path="/assets/img/phishnet/request_creation.png" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid loading="eager" path="/assets/img/phishnet/celery_loop_flow.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="/assets/img/products/phishnet/request_process_thread.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="/assets/img/products/phishnet/request_creation.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="/assets/img/products/phishnet/celery_loop_flow.png" class="img-fluid rounded z-depth-1" %}
 </center>
 
 ---
@@ -108,7 +108,7 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
 - **Key Feature Importances**: `entropyURL` (0.184), `averageSubdomainLength` (0.137), and `entropyDomain` (0.122).
 
 <center>
-{% include figure.liquid loading="eager" path="/assets/img/phishnet/without_url_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="/assets/img/products/phishnet/without_url_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
 </center>
 
 #### Model 2 (Raw URL + Structural Features)
@@ -125,7 +125,7 @@ Our AI models were trained on a substantial, custom-built dataset of **58 lakh U
 - **Key Feature Importances**: Character n-grams from the URL string, such as `s:/` (0.0196) and `tp:/` (0.0172).
 
 <center>
-{% include figure.liquid loading="eager" path="/assets/img/phishnet/without_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="/assets/img/products/phishnet/without_repeatedDigitsInURL_repeatedDigitsInSubdomain_cse_confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
 </center>
 
 ---
