@@ -14060,18 +14060,18 @@
   //
   // `;
 
-  const addBackIn = `
-window.addEventListener('WebComponentsReady', function() {
-  console.warn('WebComponentsReady');
-  const loaderTag = document.createElement('script');
-  loaderTag.src = 'https://distill.pub/template.v2.js';
-  document.head.insertBefore(loaderTag, document.head.firstChild);
-});
-`;
-
   function render(dom) {
     // pull out template script tag
     const templateTag = dom.querySelector('script[src*="template.v2.js"]');
+    const templateUrl = templateTag ? templateTag.src : new URL("template.v2.js", window.location.href).href;
+    const addBackIn = `
+window.addEventListener('WebComponentsReady', function() {
+  console.warn('WebComponentsReady');
+  const loaderTag = document.createElement('script');
+  loaderTag.src = ${JSON.stringify(templateUrl)};
+  document.head.insertBefore(loaderTag, document.head.firstChild);
+});
+`;
     if (templateTag) {
       templateTag.parentNode.removeChild(templateTag);
     } else {
