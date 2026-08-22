@@ -10,7 +10,7 @@ title: Creative Net Announces Strategic Partnership with CertifyMe
 
 **Creative Net** is thrilled to announce a major **one-year strategic sponsorship agreement with CertifyMe**, a global leader in digital credential management. This collaboration marks a significant commitment to enhancing the value and verification of every educational program we offer.
 
-{% include figure.liquid loading="eager" path="assets/img/partners/cnxcertifyme.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="assets/img/products/partners/cnxcertifyme.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ## 🏆 CertifyMe: Our Official Certification Partner
 

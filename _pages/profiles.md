@@ -26,3 +26,5 @@ profiles:
       <p>Prashanth Devarahatti</p>
       <p><a href="mailto:prashanthdevarahatti@gmail.com">prashanthdevarahatti@gmail.com</a></p>
 ---
+
+Creative Net is built by engineers and researchers focused on sovereign software systems, robotics, and mission-driven innovation for strategic use-cases.

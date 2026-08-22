@@ -29,7 +29,7 @@ _styles: >
 ---
 
 <center>
-{% include figure.liquid loading="eager" path="assets/products/adverse.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/products/adverse.png" class="img-fluid rounded z-depth-1" %}
 </center>
 
 # ADVERSE — _Automated Open-Source Intelligence System_
