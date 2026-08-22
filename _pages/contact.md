@@ -9,13 +9,21 @@ horizontal: false
 social: true
 ---
 
-## Contact Person
+<section class="cn-hero">
+  <span class="cn-kicker">Creative Net • Contact</span>
+  <h1>Let’s Build with Purpose</h1>
+  <p class="cn-lead">
+    Reach out for partnership inquiries, consulting requests, product demos, or mission-specific technical collaboration.
+  </p>
+</section>
 
-Dhruva Shaw(Founder, Creative Net)
+## Primary Contact
+
+Dhruva Shaw (Founder, Creative Net)
 
 ## Email Address
 
-For general inquiries, support, or feedback, reach us at: {{site.email}} or creativenet@dhruvashaw.in
+For general inquiries, support, or feedback, reach us at: {{ site.email }} or creativenet@dhruvashaw.in
 
 ## Registered Office Address
 
@@ -25,4 +33,4 @@ Kolkata, West Bengal, India - 700082
 
 ---
 
-Feel free to contact us anytime, and we’ll be happy to assist you.
+Feel free to contact us anytime. We will respond as quickly as possible.
